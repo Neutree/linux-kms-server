@@ -22,14 +22,14 @@ $ ./vlmcsd
 ```powershell
 slmgr /upk
 slmgr /ipk XXXXX-XXXXX-XXXXX-XXXXX-XXXXX
-slmgr /skms YOUR_IP_OR_HOSTNAME
+slmgr /skms SERVER_IP_OR_HOSTNAME
 slmgr /ato
 ```
 
 - Office:
 ```powershell
 CD \Program Files\Microsoft Office\Office16 OR CD \Program Files (x86)\Microsoft Office\Office16
-cscript ospp.vbs /sethst:YOUR_IP_OR_HOSTNAME
+cscript ospp.vbs /sethst:SERVER_IP_OR_HOSTNAME
 cscript ospp.vbs /inpkey:xxxxx-xxxxx-xxxxx-xxxxx-xxxxx
 cscript ospp.vbs /act
 cscript ospp.vbs /dstatusall
